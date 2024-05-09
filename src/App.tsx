@@ -22,14 +22,14 @@ function App() {
                  Se caso eu poder agregar com minha experiência em seus projetos,entre em contato!
                 </p>
                 <div className="redes">
-                  <a href="https://www.linkedin.com/in/diegodmorais/" target="_blank"><img src="/public/linkedin.svg" alt="" /></a>
-                  <a href="https://github.com/DiegoDev1997" target="_blank"><img src="/public/git.svg" alt="" /></a>
+                  <a href="https://www.linkedin.com/in/diegodmorais/" target="_blank"><img src="/linkedin.svg" alt="" /></a>
+                  <a href="https://github.com/DiegoDev1997" target="_blank"><img src="/git.svg" alt="" /></a>
                   <a href="" target="_blank"><img src="/public/what.svg" alt="" /></a>
-                  <a href="mailto:diegodutramorais@gmail.com" target="_blank"><img src="/public/gmail.svg" alt="" /></a>
+                  <a href="mailto:diegodutramorais@gmail.com" target="_blank"><img src="/gmail.svg" alt="" /></a>
                 </div>
             </div>
             <div className="right-bottom">
-                <img src="/public/profile.jpeg" alt="foto de profissional" />
+                <img src="/profile.jpeg" alt="foto de profissional" />
             </div>
           </div>
         </section>
@@ -58,7 +58,7 @@ function App() {
               </ul>
             </div>
             <div className="right">
-              <img src="/public/dev.png" alt="" />
+              <img src="/dev.png" alt="" />
             </div>
           </div>
         </section>
