@@ -1,7 +1,8 @@
 import { Footer, Main } from "./App"
 import Checked from "./assets/svgs/checked"
+import CardProject from "./components/CardProject"
 import Header from "./components/Header"
-import { Formacao, Habilidades, Tecnologias } from "./utils/data"
+import { Formacao, Habilidades, Projetos, Tecnologias } from "./utils/data"
 
 function App() {
 
@@ -63,6 +64,9 @@ function App() {
         </section>
         <section id="projetos">
           <h3 className="title-section">Projetos Pessoais</h3>
+          <div className="container">
+              {Projetos.map((p,k)=><CardProject project={p} key={k} />)}
+          </div>
         </section>
       </div>
     </Main>

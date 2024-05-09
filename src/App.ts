@@ -14,12 +14,10 @@ export const Main=styled.div`
     padding: 100px 60px;
     min-height: 100vh;
     section{
-        min-height: 300px;
         .title-section{
             font-size: 33px;
             text-align: center;
-            color: white;
-           padding: 30px 0;
+             padding: 30px 0;
         }
     }
  
@@ -118,6 +116,9 @@ export const Main=styled.div`
     #tecnologia{
         background:linear-gradient( to right,${GlobalsStyle.bgPrimary},#000);
         padding: 100px 0;
+        .title-section{
+            color: white;
+        }
         .container{
             display: flex;
 
@@ -201,7 +202,19 @@ export const Main=styled.div`
         }
     }
     #projetos{
-        background-color: ${GlobalsStyle.bgSecondary};
+        height: auto;
+        padding: 150px 0;
+       // background-color: ${GlobalsStyle.bgSecondary};
+       .title-section{
+        columns: #000;
+       }
+        .container{
+            margin: 100px 0;
+            padding:  0 12px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 12px;
+        }
     }
 
 
@@ -211,6 +224,12 @@ export const Main=styled.div`
 @media screen and (max-width:950px){
     .content{
         padding:0px;
+        #projetos{
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+        }
         #tecnologia{
             .container{
                 flex-direction: column;

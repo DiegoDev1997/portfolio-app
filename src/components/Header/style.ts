@@ -28,6 +28,7 @@ justify-content:space-between;
             color: white;
             padding: 12px;
             text-align: center;
+            font-size: 15px;
             transition: all ease .3s;
             text-decoration: none;
             &:hover{
@@ -106,7 +107,13 @@ justify-content:space-between;
                     font-size: 17px;
                     color: ${GlobalsStyle.bgSecondary};
                     margin: 12px 0;
+                    border-radius: none;
                     border-bottom: 1px solid ${GlobalsStyle.bgPrimary};
+                    border-radius: none;
+                    &:hover{
+                        color: white;
+                        border-radius: none;
+                    }
                 }
            }
         }

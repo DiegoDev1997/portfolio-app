@@ -35,8 +35,74 @@ export const Tecnologias=[
 ]
 
 export const Projetos=[
-    {
-       backend:[],
-       frontend:[]
-    }
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   },
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   },
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   },
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   },
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   },
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   },
+   {
+    id:1,
+    img:'',
+    url:'',
+    name:'Food',
+    tecs:['Next JS','Typescript','Styled-Components'],
+    about:`Aplicação web formato multitenancy para empreendedores no nicho de alimentação.o Front-nen foi criado com
+    Next JS e  a apai com Express JS
+    `
+   }
 ]

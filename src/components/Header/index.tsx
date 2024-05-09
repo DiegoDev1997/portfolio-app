@@ -30,11 +30,11 @@ export default ()=>{
             </button>
           </div>
           <div className="links">
-            <a href="#sobre">Sobre</a>
-            <a href="#formacao">Formação</a>
-            <a href="#habilidade">Habilidades</a>
-            <a href="#tecnologia">Tecnologias</a>
-            <a href="#projetos">Projetos Pessoais</a>    
+            <a href="#sobre" onClick={()=>handleMenuMobile(false)}>Sobre</a>
+            <a href="#formacao" onClick={()=>handleMenuMobile(false)}>Formação</a>
+            <a href="#habilidade" onClick={()=>handleMenuMobile(false)} >Habilidades</a>
+            <a href="#tecnologia" onClick={()=>handleMenuMobile(false)} >Tecnologias</a>
+            <a href="#projetos" onClick={()=>handleMenuMobile(false)} >Projetos Pessoais</a>    
           </div>
         </nav> 
       </div>
