@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Box } from "./style"
+import Arrow from "../../assets/svgs/arrow"
 
 type Props={
    project:{
@@ -22,7 +23,7 @@ export default ({project}:Props)=>{
     return <Box onBody={startBody} >
         <div className="header-box" >
             <div className="left">
-              <h3>{project.name}</h3>
+              <h3><Arrow />{project.name}</h3>
             </div>
             <div className="right">
                 <button onClick={()=>startBody ? setStartBody(false) : setStartBody(true)}>{startBody ? '-' : '+'}</button>

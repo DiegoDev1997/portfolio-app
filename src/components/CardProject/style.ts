@@ -19,6 +19,19 @@ flex-direction: column;
     background:linear-gradient( to right,${GlobalsStyle.bgPrimary},#222);
     padding:12px;
     color: white;
+  .left{
+    h3{
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        .svg{
+            height: 55px;
+            width: 55px;
+            margin-right: 12px;
+            fill:${GlobalsStyle.bgSecondary};
+        }
+   }
+  }
     .right{
        button{
             background-color: white;

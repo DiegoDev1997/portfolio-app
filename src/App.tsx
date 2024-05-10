@@ -1,8 +1,11 @@
-import { Footer, Main } from "./App"
+import { Main } from "./App"
 import Checked from "./assets/svgs/checked"
 import CardProject from "./components/CardProject"
 import Header from "./components/Header"
 import { Formacao, Habilidades, Projetos, Tecnologias } from "./utils/data"
+import Footer from "./components/Footer"
+import ButtonFloat from "./components/ButtonFloat"
+
 
 function App() {
 
@@ -69,10 +72,9 @@ function App() {
           </div>
         </section>
       </div>
+      <ButtonFloat/>
     </Main>
-    <Footer>
-      footer
-    </Footer>
+    <Footer />
     </>
   )
 }

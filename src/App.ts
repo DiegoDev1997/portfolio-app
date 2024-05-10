@@ -12,7 +12,8 @@ export const Main=styled.div`
 
 .content{
     padding: 100px 60px;
-    min-height: 100vh;
+    padding-bottom: 0;
+
     section{
         .title-section{
             font-size: 33px;
@@ -308,13 +309,3 @@ export const Main=styled.div`
 }
 `
 
-
-export const Footer=styled.footer`
-min-height: 300px;
-display: flex;
-justify-content: space-around;
-background-color: #151515;
-
-
-
-`
